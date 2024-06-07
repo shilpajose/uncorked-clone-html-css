@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Online Wine & Wine Gifts</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    </head>
+
+    <body>
+        <!-- header -->
+        <div class="header text-center text-white">
+            <a href="#">GAJA ON SALE NOW </a> – Up to 50% off and $25 2-Day Shipping!
+
+            <button class="close-btn" onclick="closeHeader()">&times;</button>
+        </div>
+        <!-- main header -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light border sticky-top">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand ms-5" href="#"><img src="./images/logo.png" alt=""></a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto p-4">
+                    <li class="nav-item active me-3 ms-3">
+                        <a class="nav-link" href="#">SHOP <i class="fa-solid fa-chevron-down"></i> <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="#">GIFTS <i class="fa-solid fa-chevron-down"></i></a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="#">SPECIALS <i class="fa-solid fa-chevron-down"></i></a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="#">COLLECTOR'S CELLAR <i class="fa-solid fa-chevron-down"></i></a>
+                    </li>
+                    <li class="nav-item me-3 search">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            <span> Ship to </span> <span class="shadow-sm p-3 me-3">Al-Alabama <i
+                                    class="ms-3 fa-solid fa-chevron-down"></i></span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">AK-Alaska</a>
+                            <a class="dropdown-item" href="#">AZ-Arizona</a>
+                            <a class="dropdown-item" href="#">AR-Arkansas</a>
+                            <a class="dropdown-item" href="#">CA-California</a>
+                            <a class="dropdown-item" href="#">CA-Colorado</a>
+                            <a class="dropdown-item" href="#">CE-Connecticut</a>
+                            <a class="dropdown-item" href="#">DE-Delaware</a>
+                            <a class="dropdown-item" href="#">DC-Washington,D.C</a>
+                            <a class="dropdown-item" href="#">FL-Florida</a>
+                            <a class="dropdown-item" href="#">GA-Georgia</a>
+                        </div>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="#"><i class="fa-regular fa-user"></i>
+                            Login
+                            </i>
+                        </a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-basket-shopping"></i><sup><span class="badge rounded p-2">0</span></sup>
+
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <script>
+            function closeHeader() {
+                document.querySelector('.header').style.display = 'none';
+            }
+        </script>
+        <!-- footer -->
+        <div class='p-5 footer'>
+            <div class='footer-content d-flex justify-content-between m-5'>
+                <div class="media">
+                    <h5 class='d-flex'>Project Fair</h5>
+                    <p >Explore Projects Online</p>
+                    <span >Code licenced</span>
+                    <span >Latest version</span>
+                </div>
+                <div class="links d-flex flex-column">
+                    <h5 >Links</h5>
+                    <Link >Landing Page</Link>
+                    <Link >Home Page</Link>
+                    <Link >Watch History</Link>
+
+                </div>
+                <div class="guides d-flex flex-column">
+                    <h5 >Guides</h5>
+                    <a href="" target='_blank' >React Js</a>
+                    <a href="" target='_blank' >React Bootstrap</a>
+                    <a href="" target='_blank' >React Routing</a>
+                </div>
+                <div class="contact">
+                    <h5>Contact Us</h5>
+                    <div class='d-flex'>
+                        <input type="text" class='form-control me-2' placeholder='Email Address' />
+                        <button class='btn btn-danger pe-3 ps-3'><i class="fa-regular text-primary fa-circle-right"></i></button>
+                    </div>
+                    <div class="icons d-flex justify-content-between me-2 mt-3">
+                        <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-square-whatsapp"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+
+                    </div>
+                </div>
+            </div>
+            <p class='text-center'>Copy Right &copy; 2024 All rights Reserved.Built with reactJS</p>
+        </div>
+    
+        <!--scripts  -->
+        <!-- Bootstrap JS and dependencies -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    </body>
+
+</html>
